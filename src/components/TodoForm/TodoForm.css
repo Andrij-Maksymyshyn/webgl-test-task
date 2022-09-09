@@ -1,0 +1,44 @@
+.todo-input-form {
+    text-align: center;
+}
+
+.todo-input {
+    font-size: 18px;
+    padding: 5px;
+    width: 500px;
+    max-width: 100%;
+    background-color: lightgray;
+}
+
+.todo-input-edit {
+    width: 100%;
+    color: blue;
+    background-color: rgb(238, 238, 238);
+}
+
+.todo-input,
+.todo-input-edit {
+    border: 0px;
+    border-bottom: 1px solid black;
+}
+
+.todo-input:focus-visible,
+.todo-input-edit:focus-visible {
+    outline-style: none;
+    outline-width: 0px;
+}
+
+button {
+    margin-left: 10px;
+    border-radius: 4px;
+    background-color: darkgoldenrod;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 7px 15px;
+    opacity: 0.8;    
+}
+
+button:hover, button:focus {
+    opacity: 1;
+}

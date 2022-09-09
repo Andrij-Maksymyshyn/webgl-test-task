@@ -1,0 +1,35 @@
+.todo-list {
+    margin-top: 40px;
+}
+
+.todo-completed {
+    border: 2px gray;
+}
+
+.todo-pending {
+    border: 2px darkslategray;
+}
+
+.todo-completed,
+.todo-pending {
+    border-bottom-style: solid;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(238, 238, 238);
+}
+
+.todo-pending:first-child,
+.todo-completed:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.todo-pending:last-child,
+.todo-completed:last-child {
+    border: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+

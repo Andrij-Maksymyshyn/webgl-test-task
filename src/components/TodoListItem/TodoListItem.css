@@ -1,0 +1,67 @@
+.todo-list-item {
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.todo-item {
+    font-size: 18px;
+    color: black;
+    padding-left: 20px;
+}
+
+.todo-item p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.todo-item del {
+    color: darkslategrey;
+}
+
+.todo-item-date {
+    display: flex;
+    align-items: baseline;
+}
+
+.p-date {
+    font-size: 10px;
+    margin-left: 10px;
+    color: cadetblue;
+}
+
+
+
+.todo-mark-icon {
+    cursor: pointer;
+    font-size: 27px;
+}
+
+.todo-mark-icon:hover {
+    color: blue;
+}
+
+.todo-edit-delete-icon {
+    padding: 0px 10px;
+}
+
+.todo-icons {
+    display: flex;
+    align-items: center;
+}
+
+.delete-icon,
+.edit-icon {
+    cursor: pointer;
+    font-size: 24px;
+    margin-right: 5px;
+    margin-left: 10px;
+    color: black;
+}
+
+.edit-icon:hover {
+    color: darkgoldenrod;
+}
+
+.delete-icon:hover {
+    color: darkred;
+}
